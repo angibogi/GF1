@@ -6,11 +6,13 @@ import logo2 from '../../assets/img/qualitaly.png'
 export default function Footer() {
   return (
     <>
-    <footer className=" bg-second">
-        <div className=" flex flex-col justify-center text-center container mx-auto px-4">
-            <img className="my-10 m-auto w-[100px]"  src={logo2} alt="" />
+    <footer className="  bg-second mt-10">
+        <div className=" grid gap-8 md:grid-cols-5 text-center container mx-auto px-4">
+            <div>
+            <img className="mt-10 m-auto w-[100px]"  src={logo2} alt="" />
             <img className="m-auto w-[100px]"  src={logo} alt="" />
-            <div className="mt-10">
+            </div>
+            <div className="md:mt-10">
                 <h3 className="font-bold mb-5 text-third"  >Servizi</h3>
                 <ul className="mb-10">
                     <li className="text-third">
@@ -26,6 +28,8 @@ export default function Footer() {
                        Consegna
                     </li>
                 </ul>
+                </div>
+                <div className="md:mt-10">
                 <h3 className="font-bold mb-5 text-third">About us</h3>
                 <ul className="mb-10">
                     <li className="text-third">
@@ -41,6 +45,8 @@ export default function Footer() {
                        Prodotti consorzio
                     </li>
                 </ul>
+                </div>
+                <div className="md:mt-10">
                 <h3 className="font-bold mb-5 text-third"> Informativa</h3>
                 <ul className="mb-10">
                     <li className="text-third">
@@ -50,9 +56,9 @@ export default function Footer() {
                         Informativa Privacy
                     </li>
                 </ul>
-
+                </div>
         
-
+                <div className="md:mt-10">
                 <ul className="mb-10">
                     <li className="text-third">
                         info@gf1.it

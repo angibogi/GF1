@@ -1,25 +1,33 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/Header/Navbar'
 import Home from './pages/Home'
 import Footer from './components/Footer/Footer'
+import Nav from './components/Header/Nav'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Services from './pages/Services'
+import Project from './pages/Project'
 
 
 export default function App() {
   return (
     <>
-    <div className="w-screen h-[64px] bg-main container px-4 " >
-      <a className=" text-white" href="">info@gf1.it</a>
-    </div>
-    <div className="relative h-[280px]">
+
+    <Router>
+    <Nav/>
     <Navbar/>
-    </div>
-  
-    <Home/>
-    <Footer/>
-   
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/contact" element={<Contact/>}/>
+            <Route path="/services" element={<Services/>}/>
+            <Route path="/project" element={<Project/>}/>
+          </Routes>
+          <Footer/>
+        </Router>
     </>
   )
 }

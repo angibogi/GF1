@@ -12,7 +12,9 @@ export default {
       'second': '#E0DEDE',
       'third': '#004B27',
       'quote':'#808080',
-    }},
+    },
+  },
+    
   },
   plugins: [],
 }

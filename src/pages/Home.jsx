@@ -17,83 +17,86 @@ import logo from '../assets/img/logo_gf.png'
 export default function Home() {
   return (
     <>
-    <img className=" h[622px]" src={cover} alt=""/>
-    <section className=" flex flex-col justify-center text-center container mx-auto px-20">
-        <div className="my-10">
-            <img className="m-auto"  src={truck} alt="" />
-            <div>
+    <img className=" h[622px] w-auto" src={cover} alt=""/>
+    <section className=" container mx-auto grid gap-8  px-4 md:grid-cols-3">
+        <div className="my-10 text-center md:text-left  ">
+            <img className="m-auto  md:float-left"  src={truck} alt="" />
+            <div className="p-5">
                 <h2 className="font-bold text-main ">Consegna gratuita</h2>
                 <p>Sopra ai 100€</p>
             </div>
         </div>
-        <div className="my-10">
-            <img className="m-auto"  src={headphones} alt="" />
-            <div>
+        <div className="my-10 text-center md:text-left ">
+            <img className="m-auto md:float-left"  src={headphones} alt="" />
+            <div className="p-5">
                 <h2 className="font-bold text-main "> Supporto telefonico</h2>
                 <p>+39 3481419281</p>
              </div>
         </div>
-        <div className="my-10">
-            <img className="m-auto"  src={card} alt="" />
-            <div>
+        <div className="my-10 text-center md:text-left ">
+            <img className="m-auto md:float-left"  src={card} alt="" />
+            <div className="p-5">
                 <h2 className="font-bold text-main ">Pagamento sicuro</h2>
                 <p>Fattura</p>
             </div>
         </div>
     </section>
 
-    <section  className="container mx-auto px-20  ">
-        <div className="flex flex-col justifay-center  text-center  my-10">
+    <section  className="container mx-auto px-4">
+        <div className="grid gap-8 md:grid-cols-3  justifay-center  text-center  my-10 ">
             <img className="w-50 h-50 m-auto my-10" src={photo1} alt="" />
             <img className="w-50 h-50 m-auto my-10" src={photo2} alt="" />
             <img className="w-50 h-50 m-auto my-10" src={photo3} alt="" />
         </div>
     </section>
 
-    <section className="container mx-auto  px-20">
-        <div className="flex flex-col justifay-center  text-center my-10">
+    <section className=" grid gap-8 md:grid-cols-3  container mx-auto  px-4">
+        <div className=" text-center my-5">
            <div className=" bg-second border-2 border-main items-center ">
-                <img className="w-50 h-50 m-auto" src={book} alt="" />
+                <img className="w-[20%] md:w-[30%] h-50 m-auto" src={book} alt="" />
                 <h2 className="font-bold">I NOSTRI PROGETTI</h2>
             </div>
         </div>
-        <div className="flex flex-col justifay-center  text-center my-10">
+        <div className=" text-center my-5">
            <div className=" bg-second border-2 border-main items-center ">
-                <img className="w-50 h-50 m-auto" src={shop} alt="" />
+                <img className="w-[20%] md:w-[30%] h-50 m-auto" src={shop} alt="" />
                 <h2 className="font-bold">I PUNTI VENDITA</h2>
             </div>
         </div>
-        <div className="flex flex-col justifay-center  text-center my-10">
+        <div className="text-center my-5">
            <div className=" bg-second border-2 border-main items-center ">
-                <img className="w-50 h-50 m-auto" src={credit} alt="" />
+                <img className="w-[20%] md:w-[30%] h-50 m-auto" src={credit} alt="" />
                 <h2 className="font-bold">SHOPPING ONLINE</h2>
             </div>
         </div>
     </section>
 
-    <section className="container  px-20" >
-    <div className="my-10 ">
-            <img className="m-auto" src={photo4} alt="" />
-            <p className=" my-5  font-semibold text-quote text-xl ">Qualità, italianità e passione sono i valori racchiusi nel nostro premium brand Qualitaly.</p>
+    <section className="container mx-auto px-10 my-10" >
+    <div className=" grid gap-8 md:grid-cols-2">
+            <img className="w-[500px]" src={photo4} alt="" />
+            <div className="my-5 md:my-0">
+            <p className="  font-semibold text-quote text-xl ">Qualità, italianità e passione sono i valori racchiusi nel nostro premium brand Qualitaly.</p>
             <p className=" my-5  font-semibold text-quote text-xl">Il marchio è il primo nato in casa CIC. Un brand capace di offrire una vastissima gamma di prodotti per il mondo ho.re.ca.
                 Con Qualitaly la qualità è servita!</p>
             <img className="w-[200px] h-[100px] m-auto" src={logo2} alt="" />
+            </div>
         </div>
     </section>
 
-    <section className="container mx-auto px-20">
-        <div className="flex flex-col justifay-center  text-center mt-10">
-           <div className="  border border-main items-center ">
+    <section className="grid  md:hidden container mx-auto px-4">
+        <div className=" text-center mt-10 md:mt-0">
+           <div className=" border border-main items-center p-10 ">
                 <img className="w-[150px] h-[150px] m-auto" src={logo} alt="" />
                 <h2 className="font-bold text-main px-10 mb-10 text-lg">Rimani sempre aggiornato sulle nostre promozioni e molto altro!</h2>
             </div>
         </div>
-        <div className="flex flex-col justifay-center  text-center mb-10">
-           <div className=" bg-main border border-main">
-                <h2 className=" font-bold text-lg text-white p-20">ISCRIVITI ALLA NEWSLETTER</h2>
+        <div className="text-center mb-10 md:mb-0">
+           <div className=" bg-main border border-main p-10">
+                <h2 className=" font-bold text-2xl text-white p-20">ISCRIVITI ALLA NEWSLETTER</h2>
             </div>
         </div>
     </section>
+
     </>
   )
 }
