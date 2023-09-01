@@ -11,7 +11,7 @@ import book from '../assets/img/book.png'
 import shop from '../assets/img/shop.png'
 import credit from '../assets/img/credit.png'
 import photo4 from '../assets/img/card_4.png'
-import logo2 from '../assets/img/Qualitaly.png'
+import logo2 from '../assets/img/qualitaly.png'
 import logo from '../assets/img/logo_gf.png'
 
 export default function Home() {
