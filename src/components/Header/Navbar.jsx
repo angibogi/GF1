@@ -3,6 +3,7 @@ import logo from '../../assets/img/logo_gf.png'
 import {Link} from "react-router-dom";
 import {FaTimes} from "react-icons/fa";
 import {CiMenuFries} from "react-icons/ci";
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 
 
 
@@ -12,7 +13,8 @@ const  Navbar = () => {
     }
 const content = 
     <>
-    <div className=" top-[150px] md:hidden absolute  w-full h-full left-0 bg-white transition">
+
+    <div  className=" top-[150px] md:hidden absolute  w-full h-100vh left-0 bg-white transition">
        <ul className=" text-xl p-20">
         <Link spy={true} smooth={true}  to = "/About"  onClick={handleClick}>
         <li className=" py-4 border-b text-main font-bold border-slate-800 hover:underline cursor-pointer">
