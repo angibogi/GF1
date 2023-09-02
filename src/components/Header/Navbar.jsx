@@ -3,7 +3,7 @@ import logo from '../../assets/img/logo_gf.png'
 import {Link} from "react-router-dom";
 import {FaTimes} from "react-icons/fa";
 import {CiMenuFries} from "react-icons/ci";
-import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+
 
 
 
@@ -14,7 +14,7 @@ const  Navbar = () => {
 const content = 
     <>
 
-    <div  className=" top-[150px] md:hidden absolute  w-full h-100vh left-0 bg-white transition">
+    <div  className=" top-[120px] md:hidden absolute  w-full  left-0 bg-white transition">
        <ul className=" text-xl p-20">
         <Link spy={true} smooth={true}  to = "/About"  onClick={handleClick}>
         <li className=" py-4 border-b text-main font-bold border-slate-800 hover:underline cursor-pointer">
@@ -41,7 +41,7 @@ const content =
     </>
 
     return(
-        <nav className="  bg-white h-56 w-auto ">
+        <nav className="  bg-white md:h-56 w-auto h-20 ">
             <div className="flex justify-center items-center text-center">
         <div className=" space-x-4 hidden md:flex">
             <Link className=" flex flex-shrink-0 items-center    text-black rounded-md px-3 py-2 text-sm font-medium font-sans-serif" to = "/About">
@@ -68,7 +68,7 @@ const content =
                 {click && content}
             </div>
             <Link  to = "/">
-            <img className=" md:hidden  w-[100px] h-[100px] float-left" src={logo} alt="GF1"/>
+            <img className=" md:hidden  w-20 h-20 float-left" src={logo} alt="GF1"/>
             </Link>
             <button className=" md:hidden transition float-right mr-5 mt-5 z-100" onClick={handleClick}>{click ? <FaTimes size={30}  /> : <CiMenuFries size={30}/>} </button>
         </div>

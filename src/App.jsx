@@ -26,7 +26,7 @@ export default function App() {
             <Route path="/services" element={<Services/>}/>
             <Route path="/project" element={<Project/>}/>
           </Routes>
-          <Footer/>
+    <Footer/>
         </Router>
     </>
   )

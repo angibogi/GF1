@@ -1,5 +1,4 @@
 import React from 'react'
-
 import cover from '../assets/img/cover.png'
 import truck from '../assets/img/truck.png'
 import headphones from '../assets/img/headphones.png'
@@ -12,12 +11,15 @@ import shop from '../assets/img/shop.png'
 import credit from '../assets/img/credit.png'
 import photo4 from '../assets/img/card_4.png'
 import logo2 from '../assets/img/qualitaly.png'
-import logo from '../assets/img/logo_gf.png'
+import Newsletter from '../components/Newsletter'
+
 
 export default function Home() {
   return (
     <>
-    <img className=" h[622px] m-auto" src={cover} alt=""/>
+    <div className="w-full h-[100vh]">
+    <img className="object-cover h-[100vh] " src={cover} alt=""/>
+    </div>
     <section className=" container mx-auto grid gap-4  px-4 md:grid-cols-3">
         <div className="mt-10 mb-5 text-center md:text-left mx-auto md:columns-2 md:gap-0 ">
             <img className=" w-[30%] md:w-[50%] m-auto md:m-0 "  src={truck} alt="" />
@@ -73,30 +75,15 @@ export default function Home() {
 
     <section className=" w-100 h-50 container mx-auto px-10 my-10" >
     <div className=" grid gap-0 md:grid-cols-2">
-            <img className="md:w-[500px] m-auto md:mr-5" src={photo4} alt="" />
-            <div className="my-5 md:my-0 md:max-w-[400px] m-auto md:ml-5 ">
-            <h3 className=" lg:text-[34px] font-semibold text-quote text-xl my-10 ">Qualità, italianità e passione sono i valori racchiusi nel nostro premium brand Qualitaly.</h3>
-            <h3 className=" lg:text-[34px]  my-5  font-semibold text-quote text-xl">Il marchio è il primo nato in casa CIC. Un brand capace di offrire una vastissima gamma di prodotti per il mondo ho.re.ca.
+            <img className="md:w-[600px] m-auto md:mr-5" src={photo4} alt="" />
+            <div className="my-5 md:my-0 md:max-w-[480px] m-auto md:ml-5 ">
+            <h3 className=" lg:text-[34px] font-semibold text-quote text-[24px] my-8 ">Qualità, italianità e passione sono i valori racchiusi nel nostro premium brand Qualitaly. <br /><br />Il marchio è il primo nato in casa CIC. Un brand capace di offrire una vastissima gamma di prodotti per il mondo ho.re.ca.
                 Con Qualitaly la qualità è servita!</h3>
-            <img className="w-[200px] h-[100px] m-auto" src={logo2} alt="" />
+            <img className="w-[200px] h-[100px] md:m-0 m-auto" src={logo2} alt="" />
             </div>
         </div>
     </section>
-
-    <section className="grid md:hidden container mx-auto px-4">
-        <div className=" text-center mt-10 md:mt-0">
-           <div className=" border border-main items-center  ">
-                <img className="w-[150px] h-[150px] m-auto" src={logo} alt="" />
-                <h2 className="font-bold text-main px-10 mb-10 text-lg">Rimani sempre aggiornato sulle nostre promozioni e molto altro!</h2>
-            </div>
-        </div>
-        <div className="text-center mb-10 md:mb-0">
-           <div className=" bg-main border border-main">
-                <h2 className=" font-bold text-2xl text-white m-auto">ISCRIVITI ALLA NEWSLETTER</h2>
-            </div>
-        </div>
-    </section>
-
+<Newsletter/>
     </>
   )
 }

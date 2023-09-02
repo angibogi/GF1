@@ -1,12 +1,16 @@
 import React from 'react'
 import logo from '../../assets/img/logo_gf.png'
 import logo2 from '../../assets/img/qualitaly.png'
+import facebook from '../../assets/img/facebook.png'
+import instagram from '../../assets/img/instagram.png'
+import linkedin from '../../assets/img/linkedin.png'
+
 
 
 export default function Footer() {
   return (
     <>
-    <footer className="  bg-second mt-10">
+    <footer className="bg-second mt-10">
         <div className=" grid gap-8 md:grid-cols-5 text-center container mx-auto px-4">
             <div>
             <img className="mt-10 m-auto w-[100px]"  src={logo2} alt="" />
@@ -58,7 +62,12 @@ export default function Footer() {
                 </ul>
                 </div>
         
-                <div className="md:mt-10">
+                <div className="md:mt-10 m-auto">
+                    <div className="flex float left gap-2 ">
+                        <img className=""  src={facebook} alt="" />
+                        <img className="" src={linkedin} alt="" />
+                        <img className="" src={instagram} alt="" />
+                    </div>
                 <ul className="mb-10">
                     <li className="text-third">
                         info@gf1.it
@@ -78,7 +87,6 @@ export default function Footer() {
         </div>
         <div className="  bg-main h-20 text-center ">
             <h2 className="text-white align-middle inline-block mt-5">Copyright © GF1 - P.IVA/C.F 00264240458</h2>
-
         </div>
     </footer>
     </>
