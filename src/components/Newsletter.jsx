@@ -13,8 +13,8 @@ export default function Newsletter() {
             </div>
         </div>
         <div className="text-center mb-10 md:mb-0">
-           <div className=" bg-main border border-main">
-                <h3 className=" font-bold text-2xl text-white m-auto">ISCRIVITI ALLA NEWSLETTER</h3>
+           <div className=" bg-main border border-main h-[250px]   ">
+                <h3 className=" font-bold text-2xl text-white m-auto mt-[100px] p-1 ">ISCRIVITI ALLA <a className="underline"  href="*">NEWSLETTER</a></h3>
             </div>
         </div>
     </section>

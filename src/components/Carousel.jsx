@@ -6,7 +6,6 @@ export default function Carousel({
   autoSlide = false,
   autoSlideInterval = 3000,
   slides,
-  links,
 }) {
   const [curr, setCurr] = useState(0);
 
@@ -28,9 +27,8 @@ export default function Carousel({
         style={{ transform: `translateX(-${curr * 100}%)` }}
       >
          {slides.map((img, index) => (
-          <Link to={links[index]} key={index}>
             <img src={img} alt="" />
-          </Link>
+    
         ))}
       </div>
       

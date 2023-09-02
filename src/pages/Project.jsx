@@ -9,7 +9,7 @@ import Carousel from "../components/Carousel"
 import Home from './Home'
 
 
-const page = "https://www.google.it/?hl=it"
+
 
 
 export default function Project() {
@@ -20,7 +20,7 @@ export default function Project() {
   return (
     <div className="container mx-auto px-20">
       <div className="">
-        <Carousel slides={slides} links={links}/>
+        <Carousel slides={slides}/>
       </div>
     </div>
   );
