@@ -1,9 +1,9 @@
 import React from 'react'
 import logo from '../../assets/img/logo_gf.png'
 import logo2 from '../../assets/img/qualitaly.png'
-import facebook from '../../assets/img/facebook.png'
-import instagram from '../../assets/img/instagram.png'
-import linkedin from '../../assets/img/linkedin.png'
+import facebook from '../../assets/img/facebook.svg'
+import instagram from '../../assets/img/instagram.svg'
+import linkedin from '../../assets/img/linkedin.svg'
 
 
 
@@ -63,10 +63,10 @@ export default function Footer() {
                 </div>
         
                 <div className="md:mt-10 m-auto">
-                    <div className="flex float left gap-2 ">
-                        <img className=""  src={facebook} alt="" />
-                        <img className="" src={linkedin} alt="" />
-                        <img className="" src={instagram} alt="" />
+                    <div className="flex float left mb-5 gap-4 ">
+                        <a href="https://www.facebook.com/GF1Srl/?locale=it_IT" target="_blank"> <img className="w-[30px]"  src={facebook} alt="" /></a>
+                        <a href="https://www.linkedin.com/company/g-f-1-srl/about/" target="_blank"> <img className="w-[30px]" src={linkedin} alt="" /></a>
+                        <a href="https://www.instagram.com/gf1srl/?hl=it" target="_blank"> <img className="w-[30px]" src={instagram} alt="" /></a>
                     </div>
                 <ul className="mb-10">
                     <li className="text-third">

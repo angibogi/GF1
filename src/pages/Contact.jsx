@@ -2,17 +2,17 @@ import React from 'react'
 import location from '../assets/img/location.png'
 import alert from '../assets/img/alert.png'
 import calendar from '../assets/img/calendar.png'
-
+import team from '../assets/img/cover.png'
 
 
 export default function Contact() {
   return (
     <>
-        <div className="text-center">
+        <div className="text-center mb-[130px]">
         <h2 className="text-main text-[54px] font-bold ">Su di noi</h2>
         </div>
 
-        <section className=" grid gap-8 md:grid-cols-2 lg:grid-cols-4  container mx-auto px-4">
+        <section className=" grid gap-8 md:grid-cols-2 lg:grid-cols-4 container mx-auto px-4">
         <div className=" mx-auto text-center my-5 p-5">
             <div className="  border-2 border-main  bg-white   min-w-[230px] items-center h-[650px] ">
                 <img className="w-[20%] md:w-[30%] h-50 m-auto mt-5" src={location} alt="" />
@@ -34,41 +34,54 @@ export default function Contact() {
        
         </section>
 
-        <form className=" container mx-auto px-5 relative lg:absolute  lg:w-[60%] h-[100%] lg:h-[700px] lg:left-[40%] lg:top-[50%]  my-5 p-0 lg:p-5 border  border-main bg-second lg:-z-10 ">
+        <section className="mb-[150px]">
+<div className=" container mx-auto px-5 relative lg:absolute  lg:w-[60%] h-[100%] lg:h-[750px] lg:left-[40%] lg:top-[430px]  my-5 p-0 lg:p-5 border lg:block hidden border-main bg-second lg:-z-10 ">
+
+</div>
+        <form className=" container mx-auto px-5 relative lg:absolute  lg:w-[60%] h-[100%] lg:h-[750px] lg:left-[40%] lg:top-[430px]  my-5 p-0 lg:p-5 border border-main bg-second lg:border-hidden lg:bg-transparent ">
             <div className="w-[100%] lg:w-[70%] relative lg:absolute lg:right-[10%] ">
         <div className="text-center">
         <h2 className="text-main text-[54px] font-bold ">Contattaci</h2>
         </div>
-  <div className="flex flex-wrap -mx-3 px-10  mb-6 pt-10">
+  <div className="flex flex-wrap -mx-3 px-5 lg:px-10  mb-6 pt-10">
     <div className="w-full md:w-1/2 px-3  md:mb-0">
       <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name"></label>
-      <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-main rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Nome"/>
+      <input className="lg:z-10 appearance-none block w-full bg-gray-200 text-gray-700 border border-main rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Nome"/>
     </div>
     <div className="w-full md:w-1/2 px-3">
       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name"></label>
       <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Cognome"/>
     </div>
   </div>
-  <div className="flex flex-wrap -mx-3 mb-6 px-10">
+  <div className="flex flex-wrap -mx-3 mb-6 px-5 lg:px-10">
     <div className="w-full px-3">
       <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-mail-address"></label>
       <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-mail-address" type="text" placeholder="Indirizzo Mail"/>
     </div>
   </div>
-  <div className="flex flex-wrap -mx-3 mb-6 px-10">
+  <div className="flex flex-wrap -mx-3 mb-6 px-5 lg:px-10">
     <div className="w-full px-3">
       <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-mail-object"></label>
       <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-mail-object" type="text" placeholder="Oggetto"/>
     </div>
   </div>
-    <div className="flex flex-wrap -mx-3 mb-6 px-10">
+    <div className="flex flex-wrap -mx-3 mb-6 px-5 lg:px-10">
     <div className="w-full px-3">
       <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-mail-object"></label>
-      <textarea className="appearance-none block w-full h-[300px] bg-gray-200 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-mail-object" type="text" placeholder="Oggetto"/>
+      <textarea className="appearance-none block w-full h-[300px] bg-gray-200 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-mail-object" type="text" placeholder="Inviaci un messaggio"/>
     </div>
   </div>
   </div>
 </form>
+</section>
+
+<section className="my-10">
+<div className="container mx-auto px-4">
+    <img className="" src={team} alt=""/>
+</div>
+</section>
+
+
     </>
   )
 }

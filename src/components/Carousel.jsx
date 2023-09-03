@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
 import { Link } from "react-router-dom";
 
+
 export default function Carousel({
   autoSlide = false,
   autoSlideInterval = 3000,

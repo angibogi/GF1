@@ -10,6 +10,9 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Services from './pages/Services'
 import Project from './pages/Project'
+import Tirreno15 from './pages/Tirreno15';
+
+import './App.css'
 
 
 export default function App() {
@@ -28,6 +31,7 @@ export default function App() {
           </Routes>
     <Footer/>
         </Router>
+        
     </>
   )
 }
