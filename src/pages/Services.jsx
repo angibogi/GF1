@@ -9,8 +9,8 @@ import Newsletter from '../components/Newsletter'
 export default function Services() {
   return (
     <>
-    <div className="w-full h-[100vh]">
-    <img className="object-cover h-[100vh] " src={cover} alt=""/>
+    <div className="w-full">
+    <img className="object-cover md:h-full h-[80vh]" src={cover} alt=""/>
     </div>
 
     <section className=" text-center container mx-auto px-5 my-10">

@@ -17,8 +17,8 @@ import Newsletter from '../components/Newsletter'
 export default function Home() {
   return (
     <>
-    <div className="w-full h-[100vh]">
-    <img className="object-cover h-[100vh] " src={cover} alt=""/>
+    <div className="w-full ">
+    <img className="object-cover md:h-full h-[80vh] " src={cover} alt=""/>
     </div>
     <section className=" container mx-auto grid gap-4 px-4 md:grid-cols-3">
         <div className="mt-10 mb-5 text-center md:text-left mx-auto md:columns-2 md:gap-0 ">

@@ -7,7 +7,7 @@ import slide5 from '../assets/img/2019.jpg'
 import slide6 from '../assets/img/2023.jpg'
 import Carousel from "../components/Carousel"
 
-import Home from './Home'
+
 
 
 
@@ -22,11 +22,17 @@ export default function Project() {
 
 
   return (
+
+    <>  
+      <div className="text-center mb-[60px]">
+        <h2 className="text-main md:text-[54px] text-[32px] font-bold ">I nostri progetti</h2>
+        </div>
     <div className="container mx-auto px-20">
       <div className="">
         <Carousel slides={slides}/>
       </div>
     </div>
+    </>
   );
 }
 

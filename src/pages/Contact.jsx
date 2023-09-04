@@ -8,8 +8,8 @@ import team from '../assets/img/cover.png'
 export default function Contact() {
   return (
     <>
-        <div className="text-center mb-[130px]">
-        <h2 className="text-main text-[54px] font-bold ">Su di noi</h2>
+        <div className="text-center mb-[60px]">
+        <h2 className="text-main md:text-[54px] text-[32px] font-bold ">Su di noi</h2>
         </div>
 
         <section className=" grid gap-8 md:grid-cols-2 lg:grid-cols-4 container mx-auto px-4">
@@ -35,10 +35,10 @@ export default function Contact() {
         </section>
 
         <section className="mb-[150px]">
-<div className=" container mx-auto px-5 relative lg:absolute  lg:w-[60%] h-[100%] lg:h-[750px] lg:left-[40%] lg:top-[430px]  my-5 p-0 lg:p-5 border lg:block hidden border-main bg-second lg:-z-10 ">
+<div className=" container mx-auto px-5 relative lg:absolute  lg:w-[60%] h-[100%] lg:h-[750px] lg:left-[40%] lg:top-[380px]  my-5 p-0 lg:p-5 border lg:block hidden border-main bg-second lg:-z-10 ">
 
 </div>
-        <form className=" container mx-auto px-5 relative lg:absolute  lg:w-[60%] h-[100%] lg:h-[750px] lg:left-[40%] lg:top-[430px]  my-5 p-0 lg:p-5 border border-main bg-second lg:border-hidden lg:bg-transparent ">
+        <form className=" container mx-auto px-5 relative lg:absolute  lg:w-[60%] h-[100%] lg:h-[750px] lg:left-[40%] lg:top-[380px]  my-5 p-0 lg:p-5 border border-main bg-second lg:border-hidden lg:bg-transparent ">
             <div className="w-[100%] lg:w-[70%] relative lg:absolute lg:right-[10%] ">
         <div className="text-center">
         <h2 className="text-main text-[54px] font-bold ">Contattaci</h2>
