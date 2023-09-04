@@ -9,12 +9,15 @@ import './Navbar.css'
 
 const  Navbar = () => {
     const [click, setClick] = useState(false);
-    const handleClick = () => {setClick(!click);
-    }
+    const handleClick = () => {setClick(!click);}
+
+    
+   
+
 const content = 
     <>
 
-    <div  className=" top-[120px] md:hidden absolute  w-full h-[100%]  left-0 bg-white transition">
+    <div   className=" top-[120px] md:hidden absolute  w-full h-[100%]  left-0 bg-white transition">
        <ul className=" text-xl p-20">
         <Link spy={true} smooth={true}  to = "/About"  onClick={handleClick}>
         <li className=" py-4 border-b text-main font-bold border-slate-800 hover:underline cursor-pointer">

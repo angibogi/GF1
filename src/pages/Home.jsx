@@ -75,9 +75,9 @@ export default function Home() {
 
     <section className=" w-100 h-50 container mx-auto px-10 my-10" >
     <div className=" grid gap-0 md:grid-cols-2">
-            <img className="md:w-[600px] m-auto md:mr-5" src={photo4} alt="" />
+            <img className=" m-auto md:mr-5" src={photo4} alt="" />
             <div className="my-5 md:my-0 md:max-w-[480px] m-auto md:ml-5 ">
-            <h3 className=" lg:text-[34px] font-semibold text-quote text-[24px] my-8 ">Qualità, italianità e passione sono i valori racchiusi nel nostro premium brand Qualitaly. <br /><br />Il marchio è il primo nato in casa CIC. Un brand capace di offrire una vastissima gamma di prodotti per il mondo ho.re.ca.
+            <h3 className=" lg:text-[32px] font-semibold text-quote text-[24px] my-8 ">Qualità, italianità e passione sono i valori racchiusi nel nostro premium brand Qualitaly. <br /><br />Il marchio è il primo nato in casa CIC. Un brand capace di offrire una vastissima gamma di prodotti per il mondo ho.re.ca.
                 Con Qualitaly la qualità è servita!</h3>
             <img className="w-[200px] h-[100px] md:m-0 m-auto" src={logo2} alt="" />
             </div>

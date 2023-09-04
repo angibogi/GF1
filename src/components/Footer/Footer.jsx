@@ -4,6 +4,8 @@ import logo2 from '../../assets/img/qualitaly.png'
 import facebook from '../../assets/img/facebook.svg'
 import instagram from '../../assets/img/instagram.svg'
 import linkedin from '../../assets/img/linkedin.svg'
+import { HashLink } from 'react-router-hash-link';
+import {Link} from "react-router-dom";
 
 
 
@@ -17,39 +19,38 @@ export default function Footer() {
             <img className="m-auto w-[100px]"  src={logo} alt="" />
             </div>
             <div className="md:mt-10">
-                <h3 className="font-bold mb-5 text-third"  >Servizi</h3>
-                <ul className="mb-10">
-                    <li className="text-third">
-                        E-commerce
-                    </li>
-                    <li className="text-third">
-                        Telefono e Fax
-                    </li>
-                    <li className="text-third">
-                       Agenti di Zona
-                    </li>
-                    <li className="text-third">
-                       Consegna
-                    </li>
-                </ul>
-                </div>
-                <div className="md:mt-10">
                 <h3 className="font-bold mb-5 text-third">About us</h3>
                 <ul className="mb-10">
-                    <li className="text-third">
-                        La Storia
+                    <li>
+                    <HashLink className="text-third" smooth to='/about/#story' > La Storia </HashLink> 
                     </li>
-                    <li className="text-third">
-                       Oggi
+                    <li >
+                    <HashLink className="text-third" smooth to='/about/#today' > Oggi </HashLink> 
                     </li>
-                    <li className="text-third">
-                       Il Gruppo
-                    </li>
-                    <li className="text-third">
-                       Prodotti consorzio
+                    <li >
+                    <HashLink className="text-third" smooth to='/about/#product' > Prodotti consorzio </HashLink> 
                     </li>
                 </ul>
                 </div>
+            <div className="md:mt-10">
+                <h3 className="font-bold mb-5 text-third"  >Servizi</h3>
+                <ul className="mb-10">
+               
+                    <li>
+                    <HashLink className="text-third" smooth to='/services/#ecommerce' > E-commerce </HashLink>
+                    </li>
+                    <li className="text-third">
+                    <HashLink className="text-third" smooth to='/services/#phone' > Telefono e Fax </HashLink>  
+                    </li>
+                    <li className="text-third">
+                    <HashLink className="text-third" smooth to='/services/#agents' >  Agenti di Zona </HashLink> 
+                    </li>
+                    <li className="text-third">
+                    <HashLink className="text-third" smooth to='/services/#delivery' >  Consegna</HashLink>
+                    </li>
+                </ul>
+                </div>
+          
                 <div className="md:mt-10">
                 <h3 className="font-bold mb-5 text-third"> Informativa</h3>
                 <ul className="mb-10">
@@ -57,7 +58,7 @@ export default function Footer() {
                     Informativa Cookie
                     </li>
                     <li className="text-third">
-                        Informativa Privacy
+                    <Link spy={true} smooth={true}  to = "/privacy" > Informativa Privacy</Link>
                     </li>
                 </ul>
                 </div>
@@ -70,16 +71,16 @@ export default function Footer() {
                     </div>
                 <ul className="mb-10">
                     <li className="text-third">
-                        info@gf1.it
+                    <a  href="mailto:info@gf1.it">info@gf1.it</a>
                     </li>
                     <li className="text-third">
-                       Tel. 058553703
+                    <a  href="tel:+39058553703">Tel. 058553703</a> 
                     </li>
                     <li className="text-third">
-                    Fax. 0585857667
+                    <a  href="fax:0585857667">Fax. 0585857667</a>
                     </li>
                     <li className="text-third">
-                       Viale Zaccagna, 6
+                    <a  href="https://www.google.com/maps/place/Viale+Domenico+Zaccagna,+6,+54033+Carrara+MS/@44.0440955,10.0650555,17z/data=!3m1!4b1!4m6!3m5!1s0x12d505eebc954819:0x430279a321d04689!8m2!3d44.0440955!4d10.0650555!16s%2Fg%2F11fl7lm9q7?entry=ttu">Viale Zaccagna, 6</a> 
                     </li>
                 </ul>
             </div>

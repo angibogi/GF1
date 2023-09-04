@@ -46,36 +46,37 @@ export default function Contact() {
   <div className="flex flex-wrap -mx-3 px-5 lg:px-10  mb-6 pt-10">
     <div className="w-full md:w-1/2 px-3  md:mb-0">
       <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name"></label>
-      <input className="lg:z-10 appearance-none block w-full bg-gray-200 text-gray-700 border border-main rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Nome"/>
+      <input className="lg:z-10 appearance-none block w-full bg-gray-100 text-gray-700 border border-main rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Nome"/>
     </div>
     <div className="w-full md:w-1/2 px-3">
       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name"></label>
-      <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Cognome"/>
+      <input className="appearance-none block w-full bg-gray-100 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Cognome"/>
     </div>
   </div>
   <div className="flex flex-wrap -mx-3 mb-6 px-5 lg:px-10">
     <div className="w-full px-3">
       <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-mail-address"></label>
-      <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-mail-address" type="text" placeholder="Indirizzo Mail"/>
+      <input className="appearance-none block w-full bg-gray-100 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-mail-address" type="text" placeholder="Indirizzo Mail"/>
     </div>
   </div>
   <div className="flex flex-wrap -mx-3 mb-6 px-5 lg:px-10">
     <div className="w-full px-3">
       <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-mail-object"></label>
-      <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-mail-object" type="text" placeholder="Oggetto"/>
+      <input className="appearance-none block w-full bg-gray-100 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-mail-object" type="text" placeholder="Oggetto"/>
     </div>
   </div>
     <div className="flex flex-wrap -mx-3 mb-6 px-5 lg:px-10">
     <div className="w-full px-3">
       <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-mail-object"></label>
-      <textarea className="appearance-none block w-full h-[300px] bg-gray-200 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-mail-object" type="text" placeholder="Inviaci un messaggio"/>
+      <textarea className="appearance-none block w-full h-[300px] bg-gray-100 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-mail-object" type="text" placeholder="Inviaci un messaggio"/>
     </div>
   </div>
   </div>
 </form>
 </section>
 
-<section className="my-10">
+<section className="my-10 text-center">
+<h2 className="text-main text-[37px] font-bold my-5 ">Il nostro team</h2>
 <div className="container mx-auto px-4">
     <img className="" src={team} alt=""/>
 </div>

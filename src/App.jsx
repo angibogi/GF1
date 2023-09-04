@@ -11,8 +11,7 @@ import Contact from './pages/Contact'
 import Services from './pages/Services'
 import Project from './pages/Project'
 import Tirreno15 from './pages/Tirreno15';
-
-import './App.css'
+import Privacy from './pages/Privacy';
 
 
 export default function App() {
@@ -28,6 +27,7 @@ export default function App() {
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/services" element={<Services/>}/>
             <Route path="/project" element={<Project/>}/>
+            <Route path="/privacy" element={<Privacy/>}/>
           </Routes>
     <Footer/>
         </Router>
