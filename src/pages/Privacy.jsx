@@ -4,7 +4,7 @@ export default function Privacy() {
   return (
     <>
 
-      <div className="text-center mb-[60px]">
+      <div id="private" className="text-center mb-[60px]">
         <h2 className="text-main md:text-[54px] text-[32px] font-bold ">Privacy Policy</h2>
       </div>
 
@@ -43,11 +43,15 @@ export default function Privacy() {
           Le società pubblicitarie consentono inoltre di rinunciare alla ricezione di annunci mirati, se lo si desidera. Ciò non impedisce l'impostazione dei cookie, ma interrompe l'utilizzo e la raccolta di alcuni dati da parte di tali società.
           <br /><br />
           Per maggiori informazioni e possibilità di rinuncia, visitare l'indirizzo http://www.youronlinechoices.eu/
-          http://www.cookiepedia.co.uk/index.php?title=How_to_Manage_Cookies oppure http://www.aboutcookies.org/Per informazioni dettagliate sulla procedura necessaria è possibile consultare la guida del browser. Per una panoramica dei browser più comuni, visitare l'indirizzo
+          http://www.cookiepedia.co.uk/index.php?title=How_to_Manage_Cookies oppure http://www.aboutcookies.org/Per informazioni dettagliate sulla procedura necessaria è possibile consultare la guida del browser. 
+          
+          Per una panoramica dei browser più comuni, visitare l'indirizzo
           In caso di dubbi sull'utilizzo dei cookie, è possibile intervenire e impedirne l'impostazione, ad esempio modificando la configurazione del browser per bloccarne determinati tipi. Ricordiamo, però, che disabilitare i cookie di navigazione può causare il malfunzionamento del sito e/o limitare i servizi offerti.Rinuncia ai cookie
           Tutte le informazioni raccolte da questi cookie sono anonime e non collegate ai dati personali dell'utente. Utilizziamo i servizi di Google Analytics per eseguire queste funzioni.
+
           Questi cookie permettono di sapere in che modo i visitatori utilizzano il sito, per poterne così valutare e migliorare il funzionamento. Ad esempio, consentono di sapere quali sono le pagine più o meno frequentate. Tengono conto, tra le altre cose, del numero di visitatori, del tempo trascorso sul sito dagli utenti e delle modalità di reperimento. In questo modo, possiamo sapere che cosa funziona bene e che cosa migliorare, oltre ad assicurarci che le pagine si carichino velocemente e siano visualizzate correttamente.Cookie analitici
           Senza questi cookie non potremmo fornire i servizi per i quali gli utenti accedono al sito.
+          
           I cookie di navigazione sono cookie tecnici che consentono di navigare. Rientrano in questa categoria i cookie che riconoscono in automatico la lingua che l'utente utilizza, quelli che facilitano gli acquisti online, ecc. I cookie di navigazione, se sei registrato, sono quelli che ti consentono, quando hai fatto login, di essere riconosciuto come utente registrato del sito.Cookie di navigazione
           Di seguito è possibile saperne di più sui vari cookie utilizzati. Se lo si desidera, è possibile impedire il salvataggio di alcuni o tutti i cookie. Tuttavia, in questo caso l'utilizzo del sito e dei servizi offerti potrebbe risultarne compromesso.
           Come molti altri siti web, gf1.it potrebbe archiviare o recuperare informazioni dal browser, soprattutto sotto forma di cookie. Tali informazioni possono riguardare l'utente, le sue preferenze o il dispositivo di accesso a Internet (computer, tablet o cellulare) e vengono utilizzate principalmente per adeguare il funzionamento del sito alle aspettative dell'utente, offrendo un'esperienza di navigazione personalizzata e memorizzando le scelte effettuate in precedenza.Informativa Cookies

@@ -55,10 +55,7 @@ export default function Footer() {
                         <h3 className="font-bold mb-5 text-third"> Informativa</h3>
                         <ul className="mb-10">
                             <li className="text-third">
-                                Informativa Cookie
-                            </li>
-                            <li className="text-third">
-                                <Link spy={true} smooth={true} to="/privacy" > Informativa Privacy</Link>
+                            <HashLink className="text-third" smooth to='/privacy/#private' > Privacy Policy </HashLink>
                             </li>
                         </ul>
                     </div>
