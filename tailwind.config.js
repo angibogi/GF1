@@ -14,6 +14,8 @@ export default {
       'third': '#004B27',
       'quote':'#808080',
     },
+
+
   },
     
   },
