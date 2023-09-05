@@ -26,7 +26,7 @@ export default function Project()  {
             </section>
       <div className="">
         <div className="flex justify-center items-center text-center my-5">
-          <ul className="grid gap-5 grid-cols-6">
+          <ul className="grid gap-2 grid-cols-6">
             {
               collection.map((item)=> <li><button className="hover:text-second p-2 text-black hover:bg-main md:text-2xl text-xs border-4 border-main max-w-[200px] w-[100%] h-[50px]"  onClick={()=>{gallery_filter(item)}}>{item} </button> </li>)
             }

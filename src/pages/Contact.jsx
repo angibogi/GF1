@@ -41,7 +41,7 @@ export default function Contact() {
         <form className=" container mx-auto px-5 relative lg:absolute  lg:w-[60%] h-[100%] lg:h-[750px] lg:left-[40%] lg:top-[380px]  my-5 p-0 lg:p-5 border border-main bg-second lg:border-hidden lg:bg-transparent ">
           <div className="w-[100%] lg:w-[70%] relative lg:absolute lg:right-[10%] ">
             <div className="text-center">
-              <h2 className="text-main text-[54px] font-bold ">Contattaci</h2>
+              <h2 className="text-main text-[45px] my-5 font-bold ">Contattaci</h2>
             </div>
             <div className="flex flex-wrap -mx-3 px-5 lg:px-10  mb-6 pt-10">
               <div className="w-full md:w-1/2 px-3  md:mb-0">
