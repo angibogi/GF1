@@ -1,6 +1,6 @@
 
 import React, {useState, useEffect} from 'react'
-import {Gallery} from "./Gallery"
+import {Gallery} from "../components/Gallery/Gallery"
 import { button } from '@material-tailwind/react';
 
 export default function Project()  {
@@ -20,8 +20,8 @@ export default function Project()  {
   return (
 
     <div className="container mx-auto px-5">
-             <section className=" text-center container mx-auto px-5 my-10">
-                <h2 className="text-main text-[37px] font-bold my-5 ">I nostri progetti</h2>
+             <section className=" text-center container mx-auto px-5 mb-10">
+                <h2 className="text-main md:text-[54px] text-[32px] font-bold ">I nostri progetti</h2> 
                 <p className="text-center px-5 ">Visita le gallerie fotografiche dei nostri eventi</p>
             </section>
       <div className="">

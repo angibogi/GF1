@@ -11,7 +11,7 @@ import shop from '../assets/img/shop.png'
 import credit from '../assets/img/credit.png'
 import photo4 from '../assets/img/card_4.png'
 import logo2 from '../assets/img/qualitaly.png'
-import Newsletter from '../components/Newsletter'
+import Newsletter from '../components/Newsletter/Newsletter'
 
 
 export default function Home() {

@@ -11,6 +11,7 @@ import Contact from './pages/Contact'
 import Services from './pages/Services'
 import Project from './pages/Project'
 import Privacy from './pages/Privacy';
+import PageNotFound from './pages/PageNotFound';
 
 
 
@@ -28,6 +29,7 @@ export default function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/project" element={<Project/>} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Footer />
       </Router>

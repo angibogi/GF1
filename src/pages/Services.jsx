@@ -4,7 +4,7 @@ import cart from '../assets/img/cart.png'
 import agent from '../assets/img/agent.png'
 import box from '../assets/img/box.png'
 import phone from '../assets/img/phone.png'
-import Newsletter from '../components/Newsletter'
+import Newsletter from '../components/Newsletter/Newsletter'
 
 
 export default function Services() {

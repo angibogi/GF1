@@ -8,7 +8,7 @@ import team from '../assets/img/cover.png'
 export default function Contact() {
   return (
     <>
-      <div className="text-center mb-[60px]">
+      <div className="text-center md:mb-[60px] mb-[0px]">
         <h2 className="text-main md:text-[54px] text-[32px] font-bold ">Su di noi</h2>
       </div>
 

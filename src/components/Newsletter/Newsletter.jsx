@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../assets/img/logo_gf.png'
-import newsletter from '../assets/img/newsletter.png'
+import logo from '../../assets/img/logo_gf.png'
+import newsletter from '../../assets/img/newsletter.png'
 
 export default function Newsletter() {
   return (
@@ -14,7 +14,7 @@ export default function Newsletter() {
         </div>
         <div className="text-center mb-10 md:mb-0">
            <div className=" bg-main border border-main h-[250px]   ">
-                <h3 className=" font-bold text-2xl text-white m-auto mt-[100px] p-1 ">ISCRIVITI ALLA <a className="underline"  href="*">NEWSLETTER</a></h3>
+                <h3 className=" font-bold text-2xl text-white m-auto mt-[100px] p-1 ">ISCRIVITI ALLA <a className="underline"  href="https://app.emailchef.com/signup/form/7o22666s726q5s6964223n2235343630227q/it">NEWSLETTER</a></h3>
             </div>
         </div>
     </section>
