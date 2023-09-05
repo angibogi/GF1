@@ -10,7 +10,6 @@ GF1 SRL Website </h5>
   * [License](#license)
 
 
-
 ## Configuration and Setup
 
 In order to run this project locally, simply fork and clone the repository or download as zip and unzip on your machine.
@@ -26,7 +25,6 @@ $ npm install
 $ npm run dev
 
 ```
-
 
 
 ##  Technologies used
@@ -45,15 +43,13 @@ This project was created using the following technologies.
 
 ![gf-1-website-cqazfnu3h-angibogi vercel app_](https://github.com/angibogi/GF1/assets/116234078/87e647f7-fedd-4984-b78d-04ffb0481c3c)
 ---- -
-![img-2](https://user-images.githubusercontent.com/111676859/235677696-19b7a4c3-5e0c-4325-9484-8aacf6de4197.png)
+![gf-1-website-cqazfnu3h-angibogi vercel app_ (1)](https://github.com/angibogi/GF1/assets/116234078/b8810d92-29d2-4b91-9870-57e73be3762b)
 --- - 
-![img-3](https://user-images.githubusercontent.com/111676859/235677700-f90556c4-904f-4a38-853c-bad6157a01d5.png)
+![gf-1-website-cqazfnu3h-angibogi vercel app_ (5)](https://github.com/angibogi/GF1/assets/116234078/d8c19851-b597-48fa-a46a-9e5b80f20e21)
 --- - 
-![img-4](https://user-images.githubusercontent.com/111676859/235677704-9181c659-cf70-428d-bd02-ebb86ce54eaa.png)
---- - 
-![img-5](https://user-images.githubusercontent.com/111676859/235677711-1f9be054-db9f-425f-b24c-bee8700e6193.png)
---- - 
-![img-6](https://user-images.githubusercontent.com/111676859/235677713-d2ee180f-5915-4d94-b562-aafcf917af8d.png)
+![gf-1-website-cqazfnu3h-angibogi vercel app_ (2)](https://github.com/angibogi/GF1/assets/116234078/4519ecfc-6924-4529-b48b-f34f9e203cee)
+
+
 
 ## Author
 - Github: [berthutapea](https://github.com/berthutapea)
