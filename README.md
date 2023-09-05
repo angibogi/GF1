@@ -43,7 +43,7 @@ This project was created using the following technologies.
  
  ##  Screenshots 
 
-![img-1](https://user-images.githubusercontent.com/111676859/235677687-85c8711e-c68d-4946-84fc-b693c542ab2c.png)
+![gf-1-website-cqazfnu3h-angibogi vercel app_](https://github.com/angibogi/GF1/assets/116234078/87e647f7-fedd-4984-b78d-04ffb0481c3c)
 ---- -
 ![img-2](https://user-images.githubusercontent.com/111676859/235677696-19b7a4c3-5e0c-4325-9484-8aacf6de4197.png)
 --- - 
