@@ -5,7 +5,7 @@ import facebook from '../../assets/img/facebook.svg'
 import instagram from '../../assets/img/instagram.svg'
 import linkedin from '../../assets/img/linkedin.svg'
 import { HashLink } from 'react-router-hash-link';
-import { Link } from "react-router-dom";
+
 
 
 
