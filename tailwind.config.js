@@ -4,12 +4,10 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
     extend: {     
-
-
-      
       colors: {
       'main': '#00904A',
       'second': '#E0DEDE',
@@ -21,5 +19,5 @@ export default {
   },
     
   },
-  plugins: [],
+  plugins: [require("tw-elements/dist/plugin.cjs")],
 }

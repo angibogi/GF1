@@ -17,7 +17,7 @@ const Navbar = () => {
     const content =
         <>
 
-            <div className=" top-[120px] md:hidden absolute  w-full h-[100%]  left-0 bg-white transition">
+            <div className=" top-[120px] md:hidden absolute  w-full h-[100%]  left-0 bg-white transition z-10">
                 <ul className=" text-xl p-20">
                     <Link  to="/About" onClick={handleClick}>
                         <li className=" py-4 border-b text-main font-bold border-slate-800 hover:underline cursor-pointer">
@@ -44,7 +44,7 @@ const Navbar = () => {
         </>
 
     return (
-        <nav className="  bg-white md:h-56 w-auto h-20 ">
+        <nav className="  bg-white md:h-56 w-auto h-20 z-2 ">
             <div className="flex justify-center items-center text-center">
                 <ul className=" space-x-4 hidden md:flex">
                     <Link className=" flex items-center    text-black px-3  text-sm font-medium font-sans-serif" to="/About">
