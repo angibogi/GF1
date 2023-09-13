@@ -22,7 +22,7 @@ export default function PagePorte19
           {
             data.map((item)=> 
             
-            <div  key={item.id} className="">
+            <div  key={item.id}>
                 
                     <div>
                     <img src={item.image}  alt="project" />

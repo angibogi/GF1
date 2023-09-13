@@ -44,24 +44,24 @@ const Navbar = () => {
         </>
 
     return (
-        <nav className="  bg-white md:h-56 w-auto h-20 z-2 ">
+        <nav className="bg-white md:h-56 w-auto h-20 z-2 ">
             <div className="flex justify-center items-center text-center">
                 <ul className=" space-x-4 hidden md:flex">
-                    <Link className=" flex items-center    text-black px-3  text-sm font-medium font-sans-serif" to="/About">
+                    <Link className=" flex items-center text-black px-3  text-sm font-medium font-sans-serif" to="/About">
                         <li className=" link link-underline link-underline-black  flex">AZIENDA</li>
                     </Link>
-                    <Link className=" flex  items-center    text-black px-3  text-sm font-medium font-sans-serif" to="/Services">
-                        <li className=" link link-underline link-underline-black flex">SERVIZI</li>
+                    <Link className="flex  items-center text-black px-3  text-sm font-medium font-sans-serif" to="/Services">
+                        <li className="link link-underline link-underline-black flex">SERVIZI</li>
                     </Link>
                     <Link to="/">
                         <div className="flex  items-center">
                             <img className="h-[178px] w-auto" src={logo} alt="GF1" />
                         </div>
                     </Link>
-                    <Link className=" flex  items-center    text-black  px-3 text-sm font-medium font-sans-serif" to="/Contact">
+                    <Link className=" flex items-center  text-black  px-3 text-sm font-medium font-sans-serif" to="/Contact">
                         <li className=" link link-underline link-underline-black  flex">SU DI NOI</li>
                     </Link>
-                    <Link className=" flex  items-center    text-black  px-3  text-sm font-medium font-sans-serif" to="/Project">
+                    <Link className=" flex items-center  text-black  px-3  text-sm font-medium font-sans-serif" to="/Project">
                         <li className=" link link-underline link-underline-black flex">PROGETTI</li>
                     </Link>
                 </ul>

@@ -20,7 +20,7 @@ export default function PageTirreno23
           {
             data.map((item)=> 
             
-            <div  key={item.id} className="">
+            <div  key={item.id}>
                 
                     <div>
                     <img src={item.image}  alt="project" />

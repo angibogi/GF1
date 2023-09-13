@@ -83,7 +83,7 @@ export default function Footer() {
                     </div>
 
                 </div>
-                <div className="  bg-main h-20 text-center ">
+                <div className="bg-main h-20 text-center ">
                     <h2 className="text-white align-middle inline-block mt-5">Copyright © GF1 - P.IVA/C.F 00264240458</h2>
                 </div>
             </footer>

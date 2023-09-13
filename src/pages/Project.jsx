@@ -1,24 +1,27 @@
+import React from 'react'
+import {
+  Carousel,
+  initTE,
+} from "tw-elements";
+import { Link } from "react-router-dom";
 import slide1 from '../assets/img/2015.jpg';
 import slide2 from '../assets/img/2016.jpg';
 import slide3 from '../assets/img/2017.jpg';
 import slide4 from '../assets/img/2018.jpg';
 import slide5 from '../assets/img/2019.jpg';
 import slide6 from '../assets/img/2023.jpg';
-import { Link } from "react-router-dom";
 
 import {
   BsFillArrowRightCircleFill,
   BsFillArrowLeftCircleFill
 } from "react-icons/bs";
 
-const style = { color: "#00904A"}
-
-import {
-  Carousel,
-  initTE,
-} from "tw-elements";
 
 initTE({ Carousel });
+
+const style = { color: "#00904A"}
+
+
 
 
 function Project() {
@@ -38,12 +41,12 @@ function Project() {
       data-te-carousel-init
       data-te-ride="carousel">
 
-    <div className="relative md:w-[60%] w-[80%] mx-auto overflow-hidden ">
-    <Link to = "/porte15" className="relative float-left -mr-[100%] w-full !transform-none  duration-[50ms] ease-in-out motion-reduce:transition-none"
+    <div className="relative md:w-[60%] w-[80%] mx-auto overflow-hidden">
+    <Link to = "/porte15" className="relative float-left -mr-[100%] hidden w-full !transform-none  duration-[50ms] ease-in-out motion-reduce:transition-none"
         data-te-carousel-fade
         data-te-carousel-item
         data-te-carousel-active>
-        <img src={slide1} alt="Tirreno 2015" />    
+        <img src={slide1} alt="Tirreno 2015"/>    
         </Link>
 
         <Link to = "/porte16"
@@ -105,7 +108,7 @@ function Project() {
         <BsFillArrowRightCircleFill style={style} size={25}/>
         </span>
         <span
-          class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+          className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
           >Next</span>
       </button>
     </div>

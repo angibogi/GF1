@@ -78,7 +78,7 @@ export default function Contact() {
       <section className="my-10 text-center">
         <h2 className="text-main text-[37px] font-bold my-5 ">Il nostro team</h2>
         <div className="container mx-auto px-4">
-          <img className="" src={team} alt="" />
+          <img  src={team} alt="" />
         </div>
       </section>
 

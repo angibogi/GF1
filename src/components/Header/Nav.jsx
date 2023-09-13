@@ -8,7 +8,6 @@ export default function Nav() {
         <a className="text-white " href="mailto:info@gf1.it">info@gf1.it</a>
         <a href="https://shop.gf1.it/sm/" target="_blank"><img className=" w-[25px] h-[25px] flex items-end " src={market} alt="market" /></a>
       </div>
-      <img src="" alt="" />
     </nav>
   )
 }
