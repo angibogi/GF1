@@ -5,6 +5,8 @@ import {Link} from "react-router-dom"
 export default function PageTirreno15
 () {
     const [data,setData] = useState([]);
+    const inputClass = "text-main font-semibold md:text-[18px] no-underline  hover:underline"
+    
 
     useEffect(()=>{
     setData(Tirreno15);
@@ -13,10 +15,10 @@ export default function PageTirreno15
   return (
     <div className="container px-5 mx-auto text-center ">
           <h2 className="text-main font-bold text-[32px]">Tirreno 2015</h2>
-        <div className=" flex p-20 justify-end">
-            <Link className="text-main font-semibold text-[18px]" to="/Porte16">Porte aperte 2016</Link>
+        <div className=" flex md:p-20 py-10 justify-end">
+            <Link className={inputClass} to="/Porte16">Porte aperte 2016</Link>
         </div>
-    <div className="grid gap-0 md:gap-5 grid-cols-1 md:grid-cols-2">
+    <div className="grid gap-5 grid-cols-1 md:grid-cols-2">
           {
             data.map((item)=> 
             

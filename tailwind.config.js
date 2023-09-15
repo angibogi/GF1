@@ -12,6 +12,7 @@ export default {
       'main': '#00904A',
       'second': '#E0DEDE',
       'third': '#004B27',
+      'four': '#9b9b9b',
       'quote':'#808080',
     },
 
@@ -19,6 +20,5 @@ export default {
   },
     
   },
-  plugins: [require("tw-elements/dist/plugin.cjs")],
-  darkMode: "class"
+
 }

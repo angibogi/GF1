@@ -112,16 +112,8 @@ export const Porte18 = [
         "image":"2018/DSC_2342.jpg",
         "year":"2018"
     },
-    {
-        "id":"42",
-        "image":"2018/DSC_4711.JPG",
-        "year":"2018"
-    },
-    {
-        "id":"43",
-        "image":"2018/DSC_4713.JPG",
-        "year":"2018"
-    },
+  
+
     {
         "id":"44",
         "image":"2018/DSC_8824.jpg",

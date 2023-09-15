@@ -12,6 +12,7 @@ import credit from '../assets/img/credit.png'
 import photo4 from '../assets/img/card_4.png'
 import logo2 from '../assets/img/qualitaly.png'
 import Newsletter from '../components/Newsletter/Newsletter'
+import { Link } from "react-router-dom";
 
 
 export default function Home() {
@@ -55,20 +56,26 @@ export default function Home() {
             <section className=" grid gap-4 md:grid-cols-3  container mx-auto  px-4">
                 <div className=" text-center my-5">
                     <div className=" bg-second border-2 border-main items-center ">
-                        <img className="w-[20%] md:w-[30%] h-50 m-auto" src={book} alt="" />
+                        <Link to="/project" >
+                        <img className="w-[20%] md:w-[30%] h-50 m-auto" src={book} alt="progetti" />
                         <h2 className="font-bold">I NOSTRI PROGETTI</h2>
+                        </Link>
                     </div>
                 </div>
                 <div className=" text-center my-5">
                     <div className=" bg-second border-2 border-main items-center ">
-                        <img className="w-[20%] md:w-[30%] h-50 m-auto" src={shop} alt="" />
+                 
+                        <img className="w-[20%] md:w-[30%] h-50 m-auto" src={shop} alt="punti vendita" />
                         <h2 className="font-bold">I PUNTI VENDITA</h2>
+             
                     </div>
                 </div>
                 <div className="text-center my-5">
                     <div className=" bg-second border-2 border-main items-center ">
-                        <img className="w-[20%] md:w-[30%] h-50 m-auto" src={credit} alt="" />
+                    <a href="https://shop.gf1.it/sm/" target="_blank">
+                        <img className="w-[20%] md:w-[30%] h-50 m-auto" src={credit} alt="shopping online" />
                         <h2 className="font-bold">SHOPPING ONLINE</h2>
+                    </a>
                     </div>
                 </div>
             </section>
@@ -77,9 +84,9 @@ export default function Home() {
                 <div className=" grid gap-0 md:grid-cols-2">
                     <img className=" m-auto md:mr-5" src={photo4} alt="" />
                     <div className="my-5 md:my-0 md:max-w-[480px] m-auto md:ml-5 ">
-                        <h3 className=" lg:text-[32px] font-semibold text-quote text-[24px] my-8 ">Qualità, italianità e passione sono i valori racchiusi nel nostro premium brand Qualitaly. <br /><br />Il marchio è il primo nato in casa CIC. Un brand capace di offrire una vastissima gamma di prodotti per il mondo ho.re.ca.
+                        <h3 className=" lg:text-[26px] font-semibold text-quote md:text-[16px]   text-[24px] my-8 ">Qualità, italianità e passione sono i valori racchiusi nel nostro premium brand Qualitaly. <br /><br />Il marchio è il primo nato in casa CIC. Un brand capace di offrire una vastissima gamma di prodotti per il mondo ho.re.ca.
                             Con Qualitaly la qualità è servita!</h3>
-                        <img className="w-[200px] h-[100px] md:m-0 m-auto" src={logo2} alt="" />
+                        <img className=" md:m-0 m-auto" src={logo2} alt="" />
                     </div>
                 </div>
             </section>
