@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {Tirreno16} from "./Gallery/Tirreno16";
+import {Tirreno16} from "../GalleryPhoto/Tirreno16";
 import {Link} from "react-router-dom";
 import {Helmet} from "react-helmet";
 

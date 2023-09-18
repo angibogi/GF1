@@ -7,6 +7,7 @@ import today2 from '../assets/img/today_2.webp'
 import group1 from '../assets/img/group_1.webp'
 import group2 from '../assets/img/card_4.webp'
 import {Helmet} from "react-helmet";
+import Title from '../components/Title'
 
 const About = () => {
   return (
@@ -16,9 +17,8 @@ const About = () => {
                 <title>La nostra storia - GF1 Srl</title>
                 <link rel="canonical" href="http://mysite.com/example" />
           </Helmet>
-      <div className="text-center">
-        <h2 className="text-main md:text-[54px] text-[32px] font-bold ">La nostra storia</h2>
-      </div>
+          
+      <Title>La nostra storia</Title>
 
       <section className="container mx-auto p-5 mb-[5%]">
         <div>

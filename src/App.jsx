@@ -6,12 +6,12 @@ import Footer from './components/Footer/Footer';
 import Nav from './components/Header/Nav';
 import Privacy from './pages/Privacy';
 import PageNotFound from './pages/PageNotFound';
-import PagePorte18 from './components/PagePorte18';
-import PagePorte19 from './components/PagePorte19';
-import PageTirreno15 from './components/PageTirreno15';
-import PageTirreno16 from './components/PageTirreno16';
-import PageTirreno17 from './components/PageTirreno17';
-import PageTirreno23 from './components/PageTirreno23';
+import PagePorte18 from './components/Gallery/PagePorte18';
+import PagePorte19 from './components/Gallery/PagePorte19';
+import PageTirreno15 from './components/Gallery/PageTirreno15';
+import PageTirreno16 from './components/Gallery/PageTirreno16';
+import PageTirreno17 from './components/Gallery/PageTirreno17';
+import PageTirreno23 from './components/Gallery/PageTirreno23';
 
 
 

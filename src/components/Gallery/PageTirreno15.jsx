@@ -1,15 +1,16 @@
 import React, {useState, useEffect} from 'react';
-import {Porte19} from "./Gallery/Porte19";
+import {Tirreno15} from "../GalleryPhoto/Tirreno15";
 import {Link} from "react-router-dom";
 import {Helmet} from "react-helmet";
 
-const PagePorte19 = () => { 
+const PageTirreno15 = () => {  
 
     const [data,setData] = useState([]);
     const inputClass = "text-main font-semibold md:text-[18px] no-underline  hover:underline"
+    
 
     useEffect(()=>{
-    setData(Porte19);
+    setData(Tirreno15);
     },[]) 
   
   return (
@@ -21,13 +22,10 @@ const PagePorte19 = () => {
       <title>Porte Aperte 2018 - GF1 Srl</title>
       <link rel="canonical" href="http://mysite.com/example" />
     </Helmet>
-
     <div className="container px-5 mx-auto text-center ">
-          <h2 className="text-main font-bold text-[32px]">Porte aperte 2019</h2>
-        <div className=" flex justify-between md:p-20 py-10">
-            <Link className={inputClass} to="/Porte18">Porte Aperte 2018</Link>
-          
-            <Link className={inputClass} to="/Porte23">Tirreno 2023</Link>
+          <h2 className="text-main font-bold text-[32px]">Tirreno 2015</h2>
+        <div className=" flex md:p-20 py-10 justify-end">
+            <Link className={inputClass} to="/Porte16">Porte aperte 2016</Link>
         </div>
     <div className="grid gap-5 grid-cols-1 md:grid-cols-2">
           {
@@ -47,4 +45,4 @@ const PagePorte19 = () => {
   );
 };
 
-export default PagePorte19
+export default PageTirreno15

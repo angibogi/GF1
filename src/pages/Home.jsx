@@ -31,21 +31,21 @@ const Home = () => {
             </div>
             <section className=" container mx-auto grid gap-4 px-4 md:grid-cols-3">
                 <div className="mt-10 mb-5 text-center md:text-left mx-auto md:columns-2 md:gap-0 ">
-                    <img className=" w-[30%] md:w-[50%] m-auto md:m-0 h-[63px] " src={truck} alt="Consegna gratuita" />
+                    <img className="  md:w-[50%] m-auto md:m-0 h-[63px] " src={truck} alt="Consegna gratuita" />
                     <div className="">
                         <h2 className="font-bold text-main text-sm  lg:text-md ">Consegna gratuita</h2>
                         <p className=" text-sm lg:text-md ">Sopra ai 100€</p>
                     </div>
                 </div>
                 <div className="mt-10 mb-5 text-center md:text-left mx-auto md:columns-2 md:gap-0 ">
-                    <img className=" w-[30%] md:w-[50%] m-auto md:m-0 h-[63px] " src={headphones} alt="Supporto telefonico" />
+                    <img className="  md:w-[50%] m-auto md:m-0 h-[63px] " src={headphones} alt="Supporto telefonico" />
                     <div className="">
                         <h2 className="font-bold text-main  text-sm lg:text-md "> Supporto telefonico</h2>
                         <p className=" text-sm lg:text-md ">+39 3481419281</p>
                     </div>
                 </div>
                 <div className="mt-10 mb-5 text-center md:text-left mx-auto md:columns-2 md:gap-0 ">
-                    <img className=" w-[30%] md:w-[50%] m-auto md:m-0 h-[63px]  " src={card} alt="Pagamento sicuro" />
+                    <img className="  md:w-[50%] m-auto md:m-0 h-[63px]  " src={card} alt="Pagamento sicuro" />
                     <div className="">
                         <h2 className="font-bold text-main text-sm lg:text-md ">Pagamento sicuro</h2>
                         <p className=" text-sm lg:text-md  ">Fattura</p>
@@ -88,13 +88,13 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className=" w-100 h-50 container mx-auto px-10 my-10" >
-                <div className=" grid gap-0 md:grid-cols-2">
-                    <img className=" m-auto md:mr-5 h-full" src={photo4} alt="Qualitaly foto" />
-                    <div className="my-5 md:my-0 md:max-w-[480px] m-auto md:ml-5 ">
-                        <h3 className=" lg:text-[26px] font-semibold text-quote md:text-[16px]   text-[24px] my-8 ">Qualità, italianità e passione sono i valori racchiusi nel nostro premium brand Qualitaly. <br /><br />Il marchio è il primo nato in casa CIC. Un brand capace di offrire una vastissima gamma di prodotti per il mondo ho.re.ca.
+            <section className=" container mx-auto  px-10 my-10" >
+                <div className=" grid gap-1 md:grid-cols-2">
+                    <img className=" md:mr-5 max-w-[90%] max-h-[90%] mx-auto" src={photo4} alt="Qualitaly foto" />
+                    <div className="my-5 md:my-0 md:max-w-[400px] m-auto md:ml-5 ">
+                        <h3 className="font-semibold text-quote lg:text-[1.5rem] md:text-[1rem] text-[16px]">Qualità, italianità e passione sono i valori racchiusi nel nostro premium brand Qualitaly. <br /><br />Il marchio è il primo nato in casa CIC. Un brand capace di offrire una vastissima gamma di prodotti per il mondo ho.re.ca.
                             Con Qualitaly la qualità è servita!</h3>
-                        <img className=" md:m-0 m-auto max-w-[275] max-h-[125]" src={logo2} alt="Logo Qualitaly" />
+                        <img className=" lg:w-[250px] lg:h-[120px] w-20 h-10" src={logo2} alt="Logo Qualitaly" />
                     </div>
                 </div>
             </section>

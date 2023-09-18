@@ -1,5 +1,6 @@
 import React from 'react'
 import {Helmet} from "react-helmet";
+import Title from '../components/Title'
 
 export default function Privacy() {
   return (
@@ -11,9 +12,7 @@ export default function Privacy() {
     <link rel="canonical" href="http://mysite.com/example" />
     </Helmet>
 
-      <div id="private" className="text-center mb-[60px]">
-        <h2 className="text-main md:text-[54px] text-[32px] font-bold ">Privacy Policy</h2>
-      </div>
+      <Title>Privacy Policy</Title>
 
       <div className="container mx-auto px-4">
         <p>Lei ha il diritto di chiedere al Titolare del trattamento l'accesso ai propri dati, la rettifica, la cancellazione degli stessi e la limitazione del trattamento che lo riguarda.

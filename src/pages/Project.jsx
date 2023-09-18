@@ -7,6 +7,7 @@ import slide4 from '../assets/img/image_slider_4.webp';
 import slide5 from '../assets/img/image_slider_5.webp';
 import slide6 from '../assets/img/image_slider_6.webp';
 import {Helmet} from "react-helmet";
+import Title from '../components/Title'
 
 
 const Project = () => {
@@ -25,7 +26,7 @@ const imageClass ="opacity-80 grayscale-0 hover:grayscale"
 <div className="container px-5 mx-auto">
 
   <section className=" text-center container mx-auto px-5 my-10">
-      <h2 className="text-main md:text-[37px] text-[24px] font-bold my-5 ">I nostri servizi</h2>
+      <Title>I nostri progetti</Title>
       <p className="text-center px-5 ">Visita le gallerie fotografiche dei nostri eventi</p>
   </section>
 

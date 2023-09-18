@@ -15,7 +15,7 @@ const PageNotFound = () => {
             <div className="container mx-auto">
                 <div clasName="relative ">
             
-                        <div className="">
+                      
                         <div>
                     <img src={four} className=" mx-auto " />
                     </div>
@@ -23,7 +23,7 @@ const PageNotFound = () => {
                               Sembra tu abbia avuto un problema
                             </h1>
                             <p className="my-2 text-black text-center">Ci dispiace! Ti invitiamo a tornare nella Home per continuare la ricerca.</p>
-                        </div>
+                    
                     
                 </div>
             </div>

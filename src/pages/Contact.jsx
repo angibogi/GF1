@@ -5,6 +5,7 @@ import calendar from '../assets/img/calendar.webp'
 import team from '../assets/img/cover.webp'
 import emailjs from '@emailjs/browser';
 import {Helmet} from "react-helmet";
+import Title from '../components/Title'
 
 
 const Contact = () => {
@@ -35,9 +36,8 @@ const Contact = () => {
                 <title>Su di noi - GF1 Srl</title>
                 <link rel="canonical" href="http://mysite.com/example" />
           </Helmet>
-      <div className="text-center md:mb-[60px] mb-[0px]">
-        <h2 className="text-main md:text-[54px] text-[32px] font-bold ">Su di noi</h2>
-      </div>
+    
+      <Title>Su di noi</Title>
 
       <section className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 container mx-auto px-4">
         <div className="mx-auto text-center my-5 p-5">

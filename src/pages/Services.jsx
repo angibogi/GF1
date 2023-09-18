@@ -6,6 +6,7 @@ import box from '../assets/img/box.webp'
 import phone from '../assets/img/phone.webp'
 import Newsletter from '../components/Newsletter/Newsletter'
 import {Helmet} from "react-helmet";
+import Title from '../components/Title'
 
 const Services = () => {
     return (
@@ -21,8 +22,8 @@ const Services = () => {
                 <img className="object-cover md:h-full h-[80vh]" src={cover} alt="Cover i nostri servizi" />
             </div>
 
-            <section className=" text-center container mx-auto px-5 my-10">
-                <h2 className="text-main text-[37px] font-bold my-5 ">I nostri servizi</h2>
+            <section className=" text-center container mx-auto px-5 my-10">  
+            <Title>I nostri servizi</Title>
                 <p className="text-center px-5 ">Presso i due Cash di Avenza e Levanto la GF1 Panconi conserva una vasta gamma di prodotti, ripartiti tra il settore alimentare, salumeria, latticini, prodotti freschi, surgelati, beverage e no food.
                     <br /><br />
                     La scelta ponderata dei prodotti è il primo servizio che l’azienda intende offrire, ecco perché accanto ai classici articoli industriali, la GF1 Panconi ha scelto di affiancare anche prodotti artigianali, nettamente superiori in termini di qualità ma con un prezzo sempre adeguato.</p>
