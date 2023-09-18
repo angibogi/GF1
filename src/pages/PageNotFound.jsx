@@ -1,12 +1,17 @@
 import React from 'react'
-import { Link } from "react-router-dom";
-import four from '../assets/img/four.png'
-import cable from '../assets/img/cable.png'
+import four from '../assets/img/four.webp'
+import {Helmet} from "react-helmet";
 
-export default function 
-() {
+
+const PageNotFound = () => {
   return (
 <>
+
+<Helmet>
+                <meta charSet="utf-8" />
+                <title>Erore 404 - GF1 Srl</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+          </Helmet>
             <div className="container mx-auto">
                 <div clasName="relative ">
             
@@ -25,5 +30,7 @@ export default function
             <div>
             </div>
             </>     
-  )
-}
+  );
+};
+
+export default PageNotFound;

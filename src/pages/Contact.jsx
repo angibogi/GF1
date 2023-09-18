@@ -1,29 +1,13 @@
 import React, { useRef, useState } from 'react';
-import location from '../assets/img/location.png'
-import alert from '../assets/img/alert.png'
-import calendar from '../assets/img/calendar.png'
-import team from '../assets/img/cover.png'
+import location from '../assets/img/location.webp'
+import alert from '../assets/img/alert.webp'
+import calendar from '../assets/img/calendar.webp'
+import team from '../assets/img/cover.webp'
 import emailjs from '@emailjs/browser';
-
-export const ContactUs = () => {
-
+import {Helmet} from "react-helmet";
 
 
-  return (
-    <form >
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" />
-    </form>
-  );
-};
-
-
-export default function Contact() {
+const Contact = () => {
   const form = useRef();
   const [done, setDone] = useState(false);
   const [label, setLabel] = useState(true);
@@ -46,6 +30,11 @@ export default function Contact() {
   };
   return (
     <>
+          <Helmet>
+                <meta charSet="utf-8" />
+                <title>Su di noi - GF1 Srl</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+          </Helmet>
       <div className="text-center md:mb-[60px] mb-[0px]">
         <h2 className="text-main md:text-[54px] text-[32px] font-bold ">Su di noi</h2>
       </div>
@@ -111,7 +100,7 @@ export default function Contact() {
             <div className="flex flex-wrap -mx-3 mb-6 px-5 lg:px-10">
               <div className="w-full px-3">
                 <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-mail-object"></label>
-                <textarea className="appearance-none block w-full h-[250px] bg-gray-100 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-mail-object" type="text"  name="message"  placeholder="Inviaci un messaggio" />
+                <textarea className="appearance-none block w-full h-[250px] bg-gray-100 text-gray-700 border border-main rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-mail-message" type="text"  name="message"  placeholder="Inviaci un messaggio" />
               </div>
             </div>
             <div className="flex flex-wrap -mx-3 mb-6 px-5 lg:px-10 md:justify-end justify-center">
@@ -132,5 +121,7 @@ export default function Contact() {
 
 
     </>
-  )
-}
+  );
+};
+
+export default Contact;

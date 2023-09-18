@@ -1,15 +1,13 @@
 import React from 'react'
-import logo from '../../assets/img/logo_gf.png'
-import logo2 from '../../assets/img/qualitaly.png'
+import logo from '../../assets/img/logo_gf.webp'
+import logo2 from '../../assets/img/qualitaly.webp'
 import facebook from '../../assets/img/facebook.svg'
 import instagram from '../../assets/img/instagram.svg'
 import linkedin from '../../assets/img/linkedin.svg'
 import { HashLink } from 'react-router-hash-link';
 
 
-
-
-export default function Footer() {
+const Footer = () => {
     return (
         <>
             <footer className="bg-second mt-10">
@@ -62,22 +60,22 @@ export default function Footer() {
 
                     <div className="md:mt-10 m-auto">
                         <div className="flex float left mb-5 gap-4 ">
-                            <a href="https://www.facebook.com/GF1Srl/?locale=it_IT" target="_blank"> <img className="w-[30px]" src={facebook} alt="facebook" /></a>
-                            <a href="https://www.linkedin.com/company/g-f-1-srl/about/" target="_blank"> <img className="w-[30px]" src={linkedin} alt="linkedin" /></a>
-                            <a href="https://www.instagram.com/gf1srl/?hl=it" target="_blank"> <img className="w-[30px]" src={instagram} alt="instagram" /></a>
+                            <a href="https://www.facebook.com/GF1Srl/?locale=it_IT" alt="Visista la pagina Facebook di GF1 srl" target="_blank"> <img className="w-[30px]" src={facebook} alt="Facebook"/></a>
+                            <a href="https://www.linkedin.com/company/g-f-1-srl/about/" alt="Visista la pagina Linkedin di GF1 srl" target="_blank"> <img className="w-[30px]" src={linkedin} alt="Linkedin"/></a>
+                            <a href="https://www.instagram.com/gf1srl/?hl=it" alt="Visista la pagina Instagram di GF1 srl" target="_blank"> <img className="w-[30px]" src={instagram} alt="Instagram"/></a>
                         </div>
                         <ul className="mb-10">
                             <li className="text-third">
-                                <a href="mailto:info@gf1.it">info@gf1.it</a>
+                                <a href="mailto:info@gf1.it" alt="La nostra mail">info@gf1.it</a>
                             </li>
                             <li className="text-third">
-                                <a href="tel:+39058553703">Tel. 058553703</a>
+                                <a href="tel:+39058553703" alt="Il nostro numero di telefono">Tel. 058553703</a>
                             </li>
                             <li className="text-third">
-                                <a href="fax:0585857667">Fax. 0585857667</a>
+                                <a href="fax:0585857667" alt="Il nostro numero di fax">Fax. 0585857667</a>
                             </li>
                             <li className="text-third">
-                                <a href="https://www.google.com/maps/place/Viale+Domenico+Zaccagna,+6,+54033+Carrara+MS/@44.0440955,10.0650555,17z/data=!3m1!4b1!4m6!3m5!1s0x12d505eebc954819:0x430279a321d04689!8m2!3d44.0440955!4d10.0650555!16s%2Fg%2F11fl7lm9q7?entry=ttu">Viale Zaccagna, 6</a>
+                                <a href="https://www.google.com/maps/place/Viale+Domenico+Zaccagna,+6,+54033+Carrara+MS/@44.0440955,10.0650555,17z/data=!3m1!4b1!4m6!3m5!1s0x12d505eebc954819:0x430279a321d04689!8m2!3d44.0440955!4d10.0650555!16s%2Fg%2F11fl7lm9q7?entry=ttu" alt="Il nostro indirizzo" >Viale Zaccagna, 6</a>
                             </li>
                         </ul>
                     </div>
@@ -88,5 +86,7 @@ export default function Footer() {
                 </div>
             </footer>
         </>
-    )
-}
+    );
+};
+
+export default Footer;

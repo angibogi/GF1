@@ -1,15 +1,21 @@
 import React from 'react'
-import founder from '../assets/img/founder.png'
-import story1 from '../assets/img/story_1.png'
-import story2 from '../assets/img/story_2.png'
-import today1 from '../assets/img/today_1.png'
-import today2 from '../assets/img/today_2.png'
-import group1 from '../assets/img/group_1.png'
-import group2 from '../assets/img/card_4.png'
+import founder from '../assets/img/founder.webp'
+import story1 from '../assets/img/story_1.webp'
+import story2 from '../assets/img/story_2.webp'
+import today1 from '../assets/img/today_1.webp'
+import today2 from '../assets/img/today_2.webp'
+import group1 from '../assets/img/group_1.webp'
+import group2 from '../assets/img/card_4.webp'
+import {Helmet} from "react-helmet";
 
-export default function About() {
+const About = () => {
   return (
     <>
+          <Helmet>
+                <meta charSet="utf-8" />
+                <title>La nostra storia - GF1 Srl</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+          </Helmet>
       <div className="text-center">
         <h2 className="text-main md:text-[54px] text-[32px] font-bold ">La nostra storia</h2>
       </div>
@@ -128,5 +134,7 @@ export default function About() {
       </section>
 
     </>
-  )
-}
+  );
+};
+
+export default About;

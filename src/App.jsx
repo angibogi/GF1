@@ -1,13 +1,9 @@
 
+import React, {lazy, Suspense} from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from './components/Header/Navbar'
-import Home from './pages/Home'
-import Footer from './components/Footer/Footer'
-import Nav from './components/Header/Nav'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Services from './pages/Services'
-import Project from './pages/Project'
+import Navbar from './components/Header/Navbar';
+import Footer from './components/Footer/Footer';
+import Nav from './components/Header/Nav';
 import Privacy from './pages/Privacy';
 import PageNotFound from './pages/PageNotFound';
 import PagePorte18 from './components/PagePorte18';
@@ -19,15 +15,20 @@ import PageTirreno23 from './components/PageTirreno23';
 
 
 
+const Home = lazy(()=>import('./pages/Home')) 
+const Project = lazy(()=>import('./pages/Project'))
+const About = lazy(()=>import('./pages/About')) 
+const Contact = lazy(()=>import('./pages/Contact')) 
+const Services = lazy(()=>import('./pages/Services')) 
+
 
 export default function App() {
   return (
     <>
-
       <Router>
+      <Suspense fallback={<div>Loading...</div>}>
         <Nav />
         <Navbar />
-   
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -43,10 +44,9 @@ export default function App() {
           <Route path="/porte23" element={<PageTirreno23/>} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
- 
-        <Footer />
+        <Footer/>
+        </Suspense>
       </Router>
-
     </>
   )
 }

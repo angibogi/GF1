@@ -1,9 +1,10 @@
-import React, {useState, useEffect} from 'react'
-import {Porte18} from "./Gallery/Porte18"
-import {Link} from "react-router-dom"
+import React, {useState, useEffect} from 'react';
+import {Porte18} from "./Gallery/Porte18";
+import {Link} from "react-router-dom";
+import {Helmet} from "react-helmet";
 
-export default function PagePorte18
-() {
+const PagePorte18 = () => { 
+
     const [data,setData] = useState([]);
 
     const inputClass = "text-main font-semibold md:text-[18px] no-underline  hover:underline"
@@ -13,6 +14,15 @@ export default function PagePorte18
     },[]) 
   
   return (
+
+    <>
+        
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Porte Aperte 2018 - GF1 Srl</title>
+      <link rel="canonical" href="http://mysite.com/example" />
+    </Helmet>
+  
     <div className="container px-5 mx-auto text-center ">
           <h2 className="text-main font-bold text-[32px]">Porte aperte 2018</h2>
         <div className="flex justify-between md:p-20 py-10">
@@ -32,5 +42,10 @@ export default function PagePorte18
           }
           </div>
     </div>
-  )
-}
+    </>
+  );
+};
+
+export default PagePorte18
+
+

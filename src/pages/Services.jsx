@@ -1,17 +1,24 @@
 import React from 'react'
-import cover from '../assets/img/cover_services.jpg'
-import cart from '../assets/img/cart.png'
-import agent from '../assets/img/agent.png'
-import box from '../assets/img/box.png'
-import phone from '../assets/img/phone.png'
+import cover from '../assets/img/cover_services.webp'
+import cart from '../assets/img/cart.webp'
+import agent from '../assets/img/agent.webp'
+import box from '../assets/img/box.webp'
+import phone from '../assets/img/phone.webp'
 import Newsletter from '../components/Newsletter/Newsletter'
+import {Helmet} from "react-helmet";
 
-
-export default function Services() {
+const Services = () => {
     return (
         <>
+            
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>I nostri servizi - GF1 Srl</title>
+      <link rel="canonical" href="http://mysite.com/example" />
+    </Helmet>
+
             <div className="w-full">
-                <img className="object-cover md:h-full h-[80vh]" src={cover} alt="" />
+                <img className="object-cover md:h-full h-[80vh]" src={cover} alt="Cover i nostri servizi" />
             </div>
 
             <section className=" text-center container mx-auto px-5 my-10">
@@ -62,3 +69,5 @@ export default function Services() {
         </>
     )
 }
+
+export default Services;

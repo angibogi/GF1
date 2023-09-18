@@ -1,8 +1,8 @@
 import React from 'react'
-import logo from '../../assets/img/logo_gf.png'
-import newsletter from '../../assets/img/newsletter.png'
+import logo from '../../assets/img/logo_gf.webp'
+import newsletter from '../../assets/img/newsletter.webp'
 
-export default function Newsletter() {
+const Newsletter = () => {
   return (
     <>
     <section className="grid md:hidden container mx-auto px-4 my-10">
@@ -26,5 +26,7 @@ export default function Newsletter() {
         <h3 className="absolute w-[350px] lg:w-[700px] font-bold text-[20px] lg:text-[40px]  text-main bottom-[8%] left-[2%]">Rimani sempre aggiornato sulle nostre promozioni e molto altro!</h3>
     </section>
     </>
-  )
-}
+  );
+};
+
+export default Newsletter

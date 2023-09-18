@@ -1,9 +1,10 @@
-import React, {useState, useEffect} from 'react'
-import {Tirreno15} from "./Gallery/Tirreno15"
-import {Link} from "react-router-dom"
+import React, {useState, useEffect} from 'react';
+import {Tirreno15} from "./Gallery/Tirreno15";
+import {Link} from "react-router-dom";
+import {Helmet} from "react-helmet";
 
-export default function PageTirreno15
-() {
+const PageTirreno15 = () => {  
+
     const [data,setData] = useState([]);
     const inputClass = "text-main font-semibold md:text-[18px] no-underline  hover:underline"
     
@@ -13,6 +14,14 @@ export default function PageTirreno15
     },[]) 
   
   return (
+
+    <>
+        
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Porte Aperte 2018 - GF1 Srl</title>
+      <link rel="canonical" href="http://mysite.com/example" />
+    </Helmet>
     <div className="container px-5 mx-auto text-center ">
           <h2 className="text-main font-bold text-[32px]">Tirreno 2015</h2>
         <div className=" flex md:p-20 py-10 justify-end">
@@ -32,5 +41,8 @@ export default function PageTirreno15
           }
           </div>
     </div>
-  )
-}
+    </>
+  );
+};
+
+export default PageTirreno15

@@ -1,8 +1,15 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
 
 export default function Privacy() {
   return (
     <>
+    
+    <Helmet>
+    <meta charSet="utf-8" />
+    <title>Privacy Policy - GF1 Srl</title>
+    <link rel="canonical" href="http://mysite.com/example" />
+    </Helmet>
 
       <div id="private" className="text-center mb-[60px]">
         <h2 className="text-main md:text-[54px] text-[32px] font-bold ">Privacy Policy</h2>
