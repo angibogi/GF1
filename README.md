@@ -52,11 +52,9 @@ This project was created using the following technologies.
 
 
 ## Author
-- Github: [berthutapea](https://github.com/berthutapea)
-- Linkedin: [gilberthutapea](https://www.linkedin.com/in/gilberthutapea/)
-- Email: [berthutapea@gmail.com](mailto:berthutapea@gmail.com)
-
-## License
+- Github: [angibogi]((https://github.com/angibogi))
+- Linkedin: [Angelo Pisano ]([https://www.linkedin.com/in/gilberthutapea/](https://www.linkedin.com/in/angelo-pisano-b58455144/))
+- Email: [Angelo Pisano](mailto:pisanoangelo.dev@gmail.com)
 
 
 
